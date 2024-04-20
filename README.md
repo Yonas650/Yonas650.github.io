@@ -18,14 +18,14 @@ To get the development server running on your local machine, follow these steps:
 
 
 ### Install dependencies
-npm install
+`npm install`
 #### or
-yarn install
+`yarn install`
 
 ### Start the development server
-npm run dev
+`npm run dev`
 #### or
-yarn dev
+`yarn dev`
 
 After running the above commands, open http://localhost:3000 in your browser to see the application in action. The development server provides hot reloading, so your changes will be visible immediately.
 
