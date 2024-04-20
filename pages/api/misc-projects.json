@@ -1,0 +1,92 @@
+[
+ 
+  {
+    "id": 1,
+    "name": "Astro Mania",
+    "image": "https://i.pinimg.com/originals/5a/5b/09/5a5b0986985a146220ffa6c363fafbc2.gif",
+    "description": "A challenging arcade game developed in Python, where players navigate a spaceship through various levels.",
+    "tags": ["Game Development", "Python"],
+    "source_code": "https://github.com/Yonas650/Astro_Mania"
+  },
+  {
+    "id": 2,
+    "name": "Tetris Rush",
+    "image": "https://www.lexaloffle.com/media/67921/another_tetris_1.gif",
+    "description": "A fast-paced version of the classic Tetris game, built with Python to offer an engaging puzzle-solving experience.",
+    "tags": ["Game", "Python", "Tetris"],
+    "source_code": "https://github.com/Yonas650/Tetris_Rush"
+  },
+  
+  {
+    "id": 3,
+    "name": "Bit Manipulation",
+    "image": "https://i.pinimg.com/originals/83/4f/38/834f3887bde180c0d471f00389466b9c.gif",
+    "description": "Educational project that demonstrates various bit manipulation techniques using C programming.",
+    "tags": ["C", "Education", "Programming"],
+    "source_code": "https://github.com/Yonas650/Bit_Manipulation"
+  },
+  {
+    "id": 4,
+    "name": "Blackjack",
+    "image": "https://images.squarespace-cdn.com/content/v1/6168c17121323e3baa39fcc1/1634264647890-E4IIVFDN9ZNX7UB92IE5/blackjack.gif",
+    "description": "A web-based version of the Blackjack card game, designed to provide a fun and interactive gaming experience.",
+    "tags": ["JavaScript", "Game", "Blackjack"],
+    "source_code": "https://github.com/Yonas650/Blackjack"
+  },
+  {
+    "id": 5,
+    "name": "Crazy 8 Game",
+    "image": "https://lh3.googleusercontent.com/proxy/0y9MaY74v1HfkyNEe93ZzMcGeptqNSMZFQR3INYoxnWNJPQShKsN79TC5YjJp5qOANexh_B0OOTNL5SkOWTF7ng",
+    "description": "Digital version of the popular Crazy 8 card game, developed to offer both single and multiplayer modes.",
+    "tags": ["JavaScript", "Game", "Crazy 8"],
+    "source_code": "https://github.com/Yonas650/Crazy_8_Game"
+  },
+  {
+    "id": 6,
+    "name": "Connect 4",
+    "image": "https://user-images.githubusercontent.com/39765499/56462040-26ef7080-63b4-11e9-8f5a-7f0b4dec216d.gif",
+    "description": "A Python implementation of the classic board game Connect 4. This project allows two players to compete directly, demonstrating Python's utility in developing interactive applications.",
+    "tags": ["Python", "Game Development"],
+    "source_code": "https://github.com/Yonas650/Connect_4"
+  },
+  {
+    "id": 7,
+    "name": "Flight-Ticket Management System",
+    "image": "https://media0.giphy.com/media/l2Sq87bt4GOdAnlGo/giphy.gif?cid=6c09b952539nzluj3z8ylf0nvpx10eyohqditeapyjsswbt0&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+    "description": "A system for managing flight tickets using C++. It efficiently handles bookings and schedules, showcasing advanced C++ programming and data structure utilization.",
+    "tags": ["C++", "Data Structures", "Management System"],
+    "source_code": "https://github.com/Yonas650/Flight-Ticket_Management_System"
+  },
+  {
+    "id": 8,
+    "name": "Contact Management System",
+    "image": "https://cdn.pixabay.com/animation/2023/06/13/15/13/15-13-36-234_512.gif",
+    "description": "A C++ based application designed to manage personal and professional contacts. It incorporates basic file handling and data management principles to organize contact information efficiently.",
+    "tags": ["C++", "File Handling", "Contact Management"],
+    "source_code": "https://github.com/Yonas650/Contact_Managment_system"
+  },
+  {
+    "id": 9,
+    "name": "Task Manager",
+    "image": "https://cdn.dribbble.com/users/4241563/screenshots/11874468/media/7796309c77cf752615a3f9062e6a3b3d.gif",
+    "description": "A JavaScript-based web application for managing tasks. It allows users to add, delete, and organize tasks with an interactive and user-friendly interface.",
+    "tags": ["JavaScript", "Web App", "Task Management"],
+    "source_code": "https://github.com/Yonas650/Task_Manager"
+  },
+  {
+    "id": 10,
+    "name": "Budget Tracker Web App",
+    "image": "https://media1.giphy.com/media/cJFQJzZxFMhONxDTnt/200w.gif?cid=6c09b952g5ciuy477si4r5mujgenh8vk0dkv77ytxlg0g0cd&ep=v1_gifs_search&rid=200w.gif&ct=g",
+    "description": "This web app helps users track their expenses and manage their budget. Built using JavaScript, it provides insights into spending patterns with graphical data visualization.",
+    "tags": ["JavaScript", "Finance", "Web App"],
+    "source_code": "https://github.com/Yonas650/Budget_Tracker_Web_App"
+  },
+  {
+    "id": 11,
+    "name": "Anonymous Course Review Site",
+    "image": "https://cdn.dribbble.com/users/3573566/screenshots/14509732/media/00ed4da4b643e67738a3ab402df90a24.gif",
+    "description": "A platform for students to anonymously submit and review feedback on courses and instructors. It fosters a culture of transparency and helps improve educational standards.",
+    "tags": ["JavaScript", "Education", "Web Development"],
+    "source_code": "https://github.com/Yonas650/Anonymous_Course_Review_Site"
+  }
+]

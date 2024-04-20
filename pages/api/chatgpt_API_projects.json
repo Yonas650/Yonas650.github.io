@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Terms and Conditions Summarizer",
+    "image": "https://cdnl.iconscout.com/lottie/premium/thumb/man-with-term-and-condition-5536230-4629530.gif",
+    "description": "This web application provides a concise, understandable summary of key points in Terms of Service documents, helping users understand their rights and obligations before agreeing to them. Utilizes advanced AI techniques to parse and summarize complex legal documents.",
+    "tags": ["Node.js", "Express", "GPT", "OpenAI", "AI Summarization", "Handlebars", "Bootstrap"],
+    "source_code": "https://github.com/Yonas650/tos-summarizer",
+    "demo": "https://termsandconditions-sumarizer-human.onrender.com/"
+  },
+  {
+    "id": 2,
+    "name": "Smart Nutrition Assistant",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/eatapps-1562790618.gif?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+    "description": "Private project focused on providing nutritional advice using chatGPT'S API, offering personalized meal planning and tracking.",
+    "tags": ["Health", "AI", "Nutrition", "Private Project"],
+    "source_code": "private"
+  }
+]
