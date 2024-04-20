@@ -17,14 +17,14 @@ To handle sensitive data such as API keys securely, we use environment variables
 To get the development server running on your local machine, follow these steps:
 
 
-# Install dependencies
+### Install dependencies
 npm install
-# or
+#### or
 yarn install
 
-# Start the development server
+### Start the development server
 npm run dev
-# or
+#### or
 yarn dev
 
 After running the above commands, open http://localhost:3000 in your browser to see the application in action. The development server provides hot reloading, so your changes will be visible immediately.
