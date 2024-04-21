@@ -12,7 +12,7 @@
     "name": "Image Classification using Deep Learning",
     "image": "https://miro.medium.com/v2/resize:fit:1384/0*E184s-NT7a4NKais.gif",
     "description": "Developed a deep learning-based clothes classification model using PyTorch and VGG16, with image preprocessing, model training and validation, and accuracy assessment.",
-    "tags": ["Python", "Machine Learning", "Deep Learning", "Numpy", "Scikit-Learn", "PIL", "PyTorch"],
+    "tags": ["Python", "Machine Learning", "Deep-Learning", "Numpy", "Scikit-Learn", "PIL", "PyTorch"],
     "source_code": "https://github.com/Yonas650/Image-classification-VGG16"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Machine Learning-Driven-CLV-Prediction",
     "image": "https://www.rsm.global/australia/sites/default/files/media/GIFs/tech-whitepapers-saas%20(3).gif",
     "description": "I did exploratory data analysis using python and built a predictive model that can accurately forecast the Customer Lifetime Value (CLV) for an e-commerce business.",
-    "tags": ["Python", "Customer-Retention", "Machine Learning", "Random-Forest", "Linear-Regression", "Neural-Networks", "Data Analysis"],
+    "tags": ["Python", "Customer-Retention", "Machine-Learning", "Random-Forest", "Linear-Regression", "Neural-Networks", "Data Analysis"],
     "source_code": "https://github.com/Yonas650/ML-Driven-CLV-Prediction"
   },
   {
