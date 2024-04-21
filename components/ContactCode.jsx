@@ -8,8 +8,8 @@ const contactItems = [
   },
   {
     social: 'Phone',
-    link: /*'+971501379607'*/,
-    /*href: 'tel:+971501379607',*/
+    link: 'null',
+    href: 'null',
   },
   {
     social: 'GitHub',
