@@ -512,4 +512,33 @@ a:visited {
   text-decoration: none;
 
 }
+/*uncomment this if you want the music button to appear*/
+/*@keyframes colorChange {
+  0%   { background-color: #ca93eb; }
+  25%  { background-color: #6de94e; }
+  50%  { background-color: #7afcff; }
+  75%  { background-color: #f13030; }
+  100% { background-color: #8de743; }
+}
+.audio-player-button {
+  position: fixed;
+  top: 4.5px;
+  right: 70px;
+  z-index: 1000; 
+  padding: 5px 10px; 
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(92, 67, 67, 0.2); 
+  font-size: 0.8em; 
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+  animation: colorChange 5s infinite;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
 
+.audio-player-button:hover,
+.audio-player-button:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}*/
