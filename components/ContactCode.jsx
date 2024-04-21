@@ -7,9 +7,9 @@ const contactItems = [
     href: 'mailto:yonasmuluatinafu@gmail.com',
   },
   {
-    /*social: 'Phone',
-    link: '+971501379607',
-    href: 'tel:+971501379607',*/
+    social: 'Phone',
+    link: /*'+971501379607'*/,
+    /*href: 'tel:+971501379607',*/
   },
   {
     social: 'GitHub',
