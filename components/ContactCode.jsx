@@ -3,13 +3,13 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'yma9130@nyu.edu',
-    href: 'mailto:yma9130@nyu.edu',
+    link: 'yonasmuluatinafu@gmail.com',
+    href: 'mailto:yonasmuluatinafu@gmail.com',
   },
   {
-    social: 'Phone',
+    /*social: 'Phone',
     link: '+971501379607',
-    href: 'tel:+971501379607',
+    href: 'tel:+971501379607',*/
   },
   {
     social: 'GitHub',
