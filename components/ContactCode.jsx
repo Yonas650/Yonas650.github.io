@@ -4,7 +4,7 @@ const contactItems = [
   {
     social: 'Email',
     link: 'yonasmuluatinafu@gmail.com',
-    href: 'mailto:yonasmuluatinafu@gmail.com',
+    //href: 'mailto:yonasmuluatinafu@gmail.com',
   },
   {
     social: 'Phone',
