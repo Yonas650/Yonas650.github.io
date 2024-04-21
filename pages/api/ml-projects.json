@@ -4,7 +4,7 @@
     "name": "Real-Time Object Detection",
     "image": "https://miro.medium.com/v2/resize:fit:1200/0*e9eu2a2tZyI2qCfN.gif", 
     "description": "I developed a program that can detect 80 different objects in realtime using SSD MobileNet V2 FPNLite model.",
-    "tags": ["Python", "OpenCV", "AI", "Computer Vision", "Deep Learning", "Tensorflow", "Numpy"],
+    "tags": ["Python", "OpenCV", "AI", "Computer-Vision", "Deep-Learning", "Tensorflow", "Numpy"],
     "source_code": "https://github.com/Yonas650/Real-Time-Object-Detection"
   },
   {
