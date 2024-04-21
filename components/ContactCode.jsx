@@ -19,7 +19,7 @@ const contactItems = [
   {
     social: 'Portfolio Website',
     link: 'portfolio_website_address', // Replace this with your actual portfolio website address if you have one
-    href: 'https://your_portfolio_website_address', // Replace this URL as well
+    href: 'https://yonas650-github-io.vercel.app/', // Replace this URL as well
   }
 ];
 
