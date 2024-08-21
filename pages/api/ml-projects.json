@@ -32,6 +32,32 @@
   },
   {
     "id": 5,
+    "name": "Graph Neural Networks for EEG",
+    "image": "https://analyticsindiamag.com/wp-content/uploads/2022/01/ezgif.com-gif-maker-17.gif",
+    "description": "This repository explores the use of Graph Neural Networks (GNNs) for analyzing EEG data. By treating EEG channels as nodes in a graph, GNNs can capture the complex relationships between different brain regions, offering a powerful approach for EEG-based tasks.",
+    "tags": ["Python", "EEG", "Graph-Neural-Networks", "GNN", "Neuroscience"],
+    "source_code": "https://github.com/Yonas650/Graph_Neural_Networks_for_EEG"
+},
+
+  {
+    "id": 6,
+    "name": "LSTM-CNN for EEG",
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*0dNoo5Y8AnUoXMSFLWpIyA.gif",
+    "description": "A project leveraging a hybrid LSTM-CNN model to analyze and classify EEG signals. The model is designed to capture both temporal and spatial features from the EEG data.",
+    "tags": ["Python", "EEG", "Deep-Learning", "LSTM", "CNN", "Neuroscience"],
+    "source_code": "https://github.com/Yonas650/LSTM_CNN-for-EEG"
+},
+{
+  "id": 7,
+  "name": "CNN-Transformer for EEG",
+  "image": "https://miro.medium.com/v2/resize:fit:1200/1*mn3V4GHG9OABem9i26NVfg.gif",
+  "description": "This project combines CNNs and Transformers to process and classify EEG data. The CNN extracts spatial features while the Transformer model handles sequential dependencies, providing a robust solution for EEG signal analysis.",
+  "tags": ["Python", "EEG", "Deep-Learning", "CNN", "Transformer", "Neuroscience"],
+  "source_code": "https://github.com/Yonas650/CNN-Transformer-for-EEG"
+}
+,
+  {
+    "id": 8,
     "name": "Machine Learning-Driven-CLV-Prediction",
     "image": "https://www.rsm.global/australia/sites/default/files/media/GIFs/tech-whitepapers-saas%20(3).gif",
     "description": "I did exploratory data analysis using python and built a predictive model that can accurately forecast the Customer Lifetime Value (CLV) for an e-commerce business.",
@@ -39,7 +65,7 @@
     "source_code": "https://github.com/Yonas650/ML-Driven-CLV-Prediction"
   },
   {
-    "id": 4,
+    "id": 9,
     "name": "Spotify Stock Analysis",
     "image": "https://miro.medium.com/v2/resize:fit:1400/1*4Lujq0bixVv3nV-JmboxYw.gif",  
     "description": "I analyzed Spotify's current stock trends using Python tools. I also made predictions using Linear Regression.",
@@ -47,7 +73,7 @@
     "source_code": "https://github.com/Yonas650/Spotify-Stock-Analysis"
   },
   {
-    "id": 6,
+    "id": 10,
     "name": "NLP IMDb Sentiment Analysis",
     "image": "https://huntimages.s3.us-west-2.amazonaws.com/production/steemhunt/2018-08-28/5ad30eaf-Animated%20GIF-source.gif",
     "description": "Analyzes sentiments of movie reviews from IMDb using NLP techniques to classify reviews as positive or negative.",
@@ -55,7 +81,7 @@
     "source_code": "https://github.com/Yonas650/NLP-IMDb-Sentiment-Analysis"
   },
   {
-    "id": 7,
+    "id": 11,
     "name": "Iris Flower Species Predictor",
     "image": "https://i.pinimg.com/originals/b9/fd/f0/b9fdf0d4223aee980ff87750259fff31.gif",
     "description": "A Streamlit app that predicts the species of Iris flowers with high accuracy, utilizing machine learning models.",

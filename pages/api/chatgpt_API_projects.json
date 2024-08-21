@@ -14,6 +14,15 @@
     "image": "https://hips.hearstapps.com/hmg-prod/images/eatapps-1562790618.gif?crop=1.00xw:1.00xh;0,0&resize=1200:*",
     "description": "Private project focused on providing nutritional advice using chatGPT'S API, offering personalized meal planning and tracking.",
     "tags": ["Health", "AI", "Nutrition", "Private Project"],
-    "source_code": "private"
-  }
+    "source_code": "https://github.com/Yonas650/Smart-Nutrition-Assistant"
+  },
+  {
+    "id": 3,
+    "name": "Travel Planner",
+    "image": "https://cdn.dribbble.com/users/795597/screenshots/3569676/media/9a9bf9c2a18364eb350b4a55ca63e91a.gif",
+    "description": "Travel Planner is an AI-powered application that helps users plan their trips efficiently. Utilizing the GPT-4 API, this tool offers personalized travel itineraries, suggestions, and insights based on user preferences and constraints.",
+    "tags": ["Python", "AI", "Travel", "GPT-4", "Web-Application", "Travel-Planner"],
+    "source_code": "https://github.com/Yonas650/Travel_planner"
+}
+
 ]
