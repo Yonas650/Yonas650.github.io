@@ -14,18 +14,16 @@ const AboutPage = () => {
       <br/>
 
       <h3>Experience</h3> <br/>
-      <ol>
-      1. Summer Research Assistant at <a href='https://aimlab-haptics.com/'>AIM lab, NYUAD</a>, Developed and implemented Graph Neural Networks for EEG-based neurohaptic research, focusing on link prediction and graph classification.
-      
-      2. Tech Intern at a start up (Project KUWA): I worked as a full-stack web developer, using technologies like Node.js and MongoDB.
-      
-      3. NYUAD Art Gallery Assistant - Production and Docent: Managed the front desk, guided tours, and assisted the exhibition design
-      technician with special projects
-      
-      4. Varsity Athletic Events Staff at NYU Athletics: Guiding visiting teams, coaches, opponents, and officials (Primary host
-        responsibility for teams and VIP’S).
-      </ol>
-      <br/>
+<ol>
+    <li>Summer Research Assistant at <a href='https://aimlab-haptics.com/'>AIM lab, NYUAD</a>, Developed and implemented Graph Neural Networks for EEG-based neurohaptic research, focusing on link prediction and graph classification.</li>
+    <br/>
+    <li>Tech Intern at a start-up (Project KUWA): I worked as a full-stack web developer, using technologies like Node.js and MongoDB.</li>
+    <br/>
+    <li>NYUAD Art Gallery Assistant - Production and Docent: Managed the front desk, guided tours, and assisted the exhibition design technician with special projects.</li>
+    <br/>
+    <li>Varsity Athletic Events Staff at NYU Athletics: Guiding visiting teams, coaches, opponents, and officials (Primary host responsibility for teams and VIP’S).</li>
+</ol>
+
 
       <center>
         <h3>Resume (<a href={myResume} download="Yonas_Atinafu_Resume.pdf">Download</a>)</h3>
