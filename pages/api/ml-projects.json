@@ -1,6 +1,21 @@
 [
   {
     "id": 1,
+    "name": "ML Models for Mutation Impact Analysis",
+    "image": "https://example.com/ml-models-mutation-impact.png",
+    "description": "This project involves building machine learning models like CNN, GRU, Random Forest, and SVM to analyze the impact of mutations in genetic data. The models are trained using a combination of SMOTE and RandomUnderSampler for handling imbalanced data and feature engineering techniques tailored for mutation data.",
+    "tags": ["Python", "Bioinformatics", "Machine-Learning", "Deep-Learning", "CNN", "GRU", "Random-Forest", "SVM"],
+    "source_code": "https://github.com/Yonas650/ML-Models-for-Mutation-Impact-analysis"
+},{
+  "id": 2,
+  "name": "Cancer Classification Using Gene Expression Data",
+  "image": "https://example.com/cancer-classification-gene-expression.png",
+  "description": "A project focused on classifying different types of cancer using gene expression data. The classification models used include SVM, Random Forest, and CNN, with feature engineering and data preprocessing steps tailored for gene expression datasets.",
+  "tags": ["Python", "Machine-Learning", "Deep-Learning", "SVM", "Random-Forest", "CNN", "Bioinformatics", "Gene-Expression", "Cancer-Classification"],
+  "source_code": "https://github.com/Yonas650/Cancer-Classification-Gene-Expression-using-svm-randomforest-and-cnn"
+},
+{
+    "id": 3,
     "name": "Real-Time Object Detection",
     "image": "https://miro.medium.com/v2/resize:fit:1200/0*e9eu2a2tZyI2qCfN.gif", 
     "description": "I developed a program that can detect 80 different objects in realtime using SSD MobileNet V2 FPNLite model.",
@@ -8,7 +23,7 @@
     "source_code": "https://github.com/Yonas650/Real-Time-Object-Detection"
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "Image Classification using Deep Learning",
     "image": "https://miro.medium.com/v2/resize:fit:1384/0*E184s-NT7a4NKais.gif",
     "description": "Developed a deep learning-based clothes classification model using PyTorch and VGG16, with image preprocessing, model training and validation, and accuracy assessment.",
@@ -16,7 +31,7 @@
     "source_code": "https://github.com/Yonas650/Image-classification-VGG16"
   },
   {
-    "id": 3,
+    "id": 5,
     "name": "Machine Learning-Driven-CLV-Prediction",
     "image": "https://www.rsm.global/australia/sites/default/files/media/GIFs/tech-whitepapers-saas%20(3).gif",
     "description": "I did exploratory data analysis using python and built a predictive model that can accurately forecast the Customer Lifetime Value (CLV) for an e-commerce business.",
@@ -32,7 +47,7 @@
     "source_code": "https://github.com/Yonas650/Spotify-Stock-Analysis"
   },
   {
-    "id": 3,
+    "id": 6,
     "name": "NLP IMDb Sentiment Analysis",
     "image": "https://huntimages.s3.us-west-2.amazonaws.com/production/steemhunt/2018-08-28/5ad30eaf-Animated%20GIF-source.gif",
     "description": "Analyzes sentiments of movie reviews from IMDb using NLP techniques to classify reviews as positive or negative.",
@@ -40,7 +55,7 @@
     "source_code": "https://github.com/Yonas650/NLP-IMDb-Sentiment-Analysis"
   },
   {
-    "id": 4,
+    "id": 7,
     "name": "Iris Flower Species Predictor",
     "image": "https://i.pinimg.com/originals/b9/fd/f0/b9fdf0d4223aee980ff87750259fff31.gif",
     "description": "A Streamlit app that predicts the species of Iris flowers with high accuracy, utilizing machine learning models.",
