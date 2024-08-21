@@ -15,15 +15,15 @@ const AboutPage = () => {
 
       <h3>Experience</h3> <br/>
       <ol>
-      <li>1. Summer Research Assistant at <a href='https://aimlab-haptics.com/'>AIM lab, NYUAD</a>, Developed and implemented Graph Neural Networks for EEG-based neurohaptic research, focusing on link prediction and graph classification.</li>
+      1. Summer Research Assistant at <a href='https://aimlab-haptics.com/'>AIM lab, NYUAD</a>, Developed and implemented Graph Neural Networks for EEG-based neurohaptic research, focusing on link prediction and graph classification.
       
-      <li>2. Tech Intern at a start up (Project KUWA): I worked as a full-stack web developer, using technologies like Node.js and MongoDB.</li>
+      2. Tech Intern at a start up (Project KUWA): I worked as a full-stack web developer, using technologies like Node.js and MongoDB.
       
-      <li>3. NYUAD Art Gallery Assistant - Production and Docent: Managed the front desk, guided tours, and assisted the exhibition design
-      technician with special projects.</li>
+      3. NYUAD Art Gallery Assistant - Production and Docent: Managed the front desk, guided tours, and assisted the exhibition design
+      technician with special projects
       
-      <li>4. Varsity Athletic Events Staff at NYU Athletics: Guiding visiting teams, coaches, opponents, and officials (Primary host
-        responsibility for teams and VIP’S).</li>
+      4. Varsity Athletic Events Staff at NYU Athletics: Guiding visiting teams, coaches, opponents, and officials (Primary host
+        responsibility for teams and VIP’S).
       </ol>
       <br/>
 
