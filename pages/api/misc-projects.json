@@ -44,7 +44,7 @@
   {
     "id": 6,
     "name": "Crazy 8 Game",
-    "image": "https://lh3.googleusercontent.com/proxy/0y9MaY74v1HfkyNEe93ZzMcGeptqNSMZFQR3INYoxnWNJPQShKsN79TC5YjJp5qOANexh_B0OOTNL5SkOWTF7ng",
+    "image": "https://media1.giphy.com/media/wC0ERZjnn5miiqrGfF/200w.gif?cid=6c09b952ps86yi980payd1jm71z5jye8a7frox9abfcb660o&ep=v1_gifs_search&rid=200w.gif&ct=g",
     "description": "Digital version of the popular Crazy 8 card game, developed to offer both single and multiplayer modes.",
     "tags": ["JavaScript", "Game", "Crazy 8"],
     "source_code": "https://github.com/Yonas650/Crazy_8_Game"
