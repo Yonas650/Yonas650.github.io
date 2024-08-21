@@ -17,7 +17,7 @@ const AboutPage = () => {
 <ol>
     <li>Summer Research Assistant at <a href='https://aimlab-haptics.com/'>AIM lab, NYUAD</a>, Developed and implemented Graph Neural Networks for EEG-based neurohaptic research, focusing on link prediction and graph classification.</li>
     <br/>
-    <li>Tech Intern at a start-up (Project KUWA): I worked as a full-stack web developer, using technologies like Node.js and MongoDB.</li>
+    <li>Tech Intern at a start-up (Project KUWA): I worked as a full-stack web developer, using MERN stack.</li>
     <br/>
     <li>AI Peer Mentor at <a href='https://nyuad.nyu.edu/en/admissions/undergraduate/why-nyu-abu-dhabi/nyuad-programs-for-high-school-students/nyuad-design-lab.html'> Design Lab:AI, NYUAD</a>: Mentored high school students from around the world, helping them with AI projects, preparing presentations, and facilitating discussions.</li>
     <br/>
