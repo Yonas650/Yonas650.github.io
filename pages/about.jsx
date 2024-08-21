@@ -19,7 +19,7 @@ const AboutPage = () => {
     <br/>
     <li>Tech Intern at a start-up (Project KUWA): I worked as a full-stack web developer, using technologies like Node.js and MongoDB.</li>
     <br/>
-    <li>AI Peer Mentor at <a href='https://nyuad.nyu.edu/en/admissions/undergraduate/why-nyu-abu-dhabi/nyuad-programs-for-high-school-students/nyuad-design-lab.html'> Design Lab:AI, NYUAD</a>: Mentored high school students from around the world, helping them with AI projects, preparing presentations, facilitating discussions, and sharing the NYUAD experience.</li>
+    <li>AI Peer Mentor at <a href='https://nyuad.nyu.edu/en/admissions/undergraduate/why-nyu-abu-dhabi/nyuad-programs-for-high-school-students/nyuad-design-lab.html'> Design Lab:AI, NYUAD</a>: Mentored high school students from around the world, helping them with AI projects, preparing presentations, and facilitating discussions.</li>
     <br/>
 </ol>   
 <h3>Additional Experience</h3> <br/>
