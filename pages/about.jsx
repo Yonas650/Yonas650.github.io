@@ -12,7 +12,8 @@ const AboutPage = () => {
         <li><span role="img" aria-label="laptop">💻</span> Current Role: Research Assistant at <a href='https://aimlab-haptics.com/'>AIM lab, NYUAD</a> Expanding my research, focusing on refining GNN models for improved link prediction and complex graph analyses.</li>
       </ul>
       <br/>
-      <h3>Experience</h3>
+
+      <h3>Experience</h3> <br/>
       <ol>
       <li><span role="img" aria-label="laptop">💻</span>Summer Research Assistant at <a href='https://aimlab-haptics.com/'>AIM lab, NYUAD</a>, Developed and implemented Graph Neural Networks for EEG-based neurohaptic research, focusing on link prediction and graph classification.</li>
       <li><span role="img" aria-label="laptop">💻</span>Tech Intern at a start up (Project KUWA): I worked as a full-stack web developer, using technologies like Node.js and MongoDB.</li>
