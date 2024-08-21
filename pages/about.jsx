@@ -19,10 +19,16 @@ const AboutPage = () => {
     <br/>
     <li>Tech Intern at a start-up (Project KUWA): I worked as a full-stack web developer, using technologies like Node.js and MongoDB.</li>
     <br/>
+</ol>   
+<h3>Additional Experience</h3> <br/>
+<ol>
     <li>NYUAD Art Gallery Assistant - Production and Docent: Managed the front desk, guided tours, and assisted the exhibition design technician with special projects.</li>
     <br/>
     <li>Varsity Athletic Events Staff at NYU Athletics: Guiding visiting teams, coaches, opponents, and officials (Primary host responsibility for teams and VIP’S).</li>
-</ol>
+    <br/>
+    <li>AI Peer Mentor at Design Lab: AI, NYUAD: Mentored high school students from around the world, helping them with AI projects, preparing presentations, facilitating discussions, and sharing the NYUAD experience.</li>
+
+  </ol>  
 
 
       <center>
