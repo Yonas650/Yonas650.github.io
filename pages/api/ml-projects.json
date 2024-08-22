@@ -70,7 +70,7 @@
     "image": "https://miro.medium.com/v2/resize:fit:1400/1*4Lujq0bixVv3nV-JmboxYw.gif",  
     "description": "I analyzed Spotify's current stock trends using Python tools. I also made predictions using Linear Regression.",
     "tags": ["Python", "Finance", "Exploratory Data Analysis", "Technology", "Pandas", "Seaborn", "Web-Scraping"],
-    "source_code": "https://github.com/Yonas650/Spotify-Stock-Analysis"
+    "source_code": "https://github.com/Yonas650/Spotify_Stock_Analysis"
   },
   {
     "id": 10,
