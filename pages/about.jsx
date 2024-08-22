@@ -5,7 +5,7 @@ const myResume = './Resume.pdf';  //make sure this points to your actual resume 
 const AboutPage = () => {
   return (
     <>
-      <h3>About Me</h3><br/>
+      <h2>About Me</h2><br/>
       <ul>
         <li><span role="img" aria-label="book">📖</span> B.Sc. in Computer Science and Mathematics from <a href='https://nyuad.nyu.edu/'>New York University Abu Dhabi</a> [Class of 2025].</li>
         <li><span role="img" aria-label="robot">🤖</span> Interests: Software Development, Data Science, Machine Learning, Robots, Research.</li>
