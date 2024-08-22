@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Smart Nutrition Assistant",
     "image": "https://hips.hearstapps.com/hmg-prod/images/eatapps-1562790618.gif?crop=1.00xw:1.00xh;0,0&resize=1200:*",
-    "description": "Private project focused on providing nutritional advice using chatGPT'S API, offering personalized meal planning and tracking.",
+    "description": "Smart Nutrition Assistant is a web application designed to help users track and analyze their dietary habits with the help of AI. This tool uses the GPT-4 Vision API for food picture recognition and dietary advice, offering a user-friendly interface for meal tracking and nutritional insights..",
     "tags": ["Health", "AI", "Nutrition", "Private Project"],
     "source_code": "https://github.com/Yonas650/Smart-Nutrition-Assistant"
   },
