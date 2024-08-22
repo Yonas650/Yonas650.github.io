@@ -9,7 +9,7 @@ const AboutPage = () => {
       <ul>
         <li><span role="img" aria-label="book">📖</span> B.Sc. in Computer Science and Mathematics from <a href='https://nyuad.nyu.edu/'>New York University Abu Dhabi</a> [Class of 2025].</li>
         <li><span role="img" aria-label="robot">🤖</span> Interests: Software Development, Data Science, Machine Learning, Robots, Research.</li>
-        <li><span role="img" aria-label="laptop">💻</span><span style={{ color: 'green' }}> Current Role: Research Assistant</span> at <a href='https://aimlab-haptics.com/'>AIM lab, NYUAD</a> Expanding my research, focusing on refining GNN models for improved link prediction and complex graph analyses.</li>
+        <li><span role="img" aria-label="laptop">💻</span><span style={{ color: 'green' }}> Current Role: Research Assistant</span> at <a href='https://aimlab-haptics.com/'>AIM lab, NYUAD</a>: Expanding my research, focusing on refining GNN models for improved link prediction and complex graph analyses.</li>
         <li><span role="img" aria-label="laptop">💻</span><span style={{ color: 'green' }}> Doing final year Capstone Project</span> at <a href='https://yasirzaki.net/'>Comments Lab, NYUAD</a>: Enhancing Mobile Web Browsing through Real-time Image Super-Resolution.</li>
 
 
