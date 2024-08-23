@@ -24,6 +24,12 @@ export default function HomePage() {
                     <span key='Python' className='Python'>
                       Python
                     </span>
+                    <span key='Research' className='Research'>
+                    Research
+                    </span>
+                    <span key='Generative AI' className='Generative AI'>
+                    Generative AI
+                    </span>
                     <span key='JavaScript' className='JavaScript'>
                       JavaScript
                     </span>
@@ -50,6 +56,9 @@ export default function HomePage() {
                     </span>
                     <span key='SQL' className='SQL'>
                       SQL
+                    </span>
+                    <span key='Software-Engineering' className='Software-Engineering'>
+                    Software-Engineering
                     </span>
                     <span key='MongoDB' className='MongoDB'>
                      MongoDB
