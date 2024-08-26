@@ -71,23 +71,5 @@
     "description": "I analyzed Spotify's current stock trends using Python tools. I also made predictions using Linear Regression.",
     "tags": ["Python", "Finance", "Exploratory Data Analysis", "Technology", "Pandas", "Seaborn", "Web-Scraping"],
     "source_code": "https://github.com/Yonas650/Spotify_Stock_Analysis"
-  },
-  {
-    "id": 10,
-    "name": "NLP IMDb Sentiment Analysis",
-    "image": "https://huntimages.s3.us-west-2.amazonaws.com/production/steemhunt/2018-08-28/5ad30eaf-Animated%20GIF-source.gif",
-    "description": "Analyzes sentiments of movie reviews from IMDb using NLP techniques to classify reviews as positive or negative.",
-    "tags": ["NLP", "Python", "Sentiment Analysis", "IMDb"],
-    "source_code": "https://github.com/Yonas650/NLP-IMDb-Sentiment-Analysis"
-  },
-  {
-    "id": 11,
-    "name": "Iris Flower Species Predictor",
-    "image": "https://i.pinimg.com/originals/b9/fd/f0/b9fdf0d4223aee980ff87750259fff31.gif",
-    "description": "A Streamlit app that predicts the species of Iris flowers with high accuracy, utilizing machine learning models.",
-    "tags": ["Machine Learning", "Python", "Streamlit", "Data Science"],
-    "source_code": "https://github.com/Yonas650/Iris_Flower_Species_Predictor_Streamlit_Deployment"
   }
-
-  
 ]
