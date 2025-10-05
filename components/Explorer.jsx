@@ -43,7 +43,7 @@ const explorerItems = [
   {
     name: 'resume.pdf',
     path: '/resume',
-    icon: 'css_icon.svg',
+    icon: 'pdf_icon.svg',
   },
 ];
 

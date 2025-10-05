@@ -1,5 +1,4 @@
-// Place your resume at: public/Yonas_Resume.pdf (or update the path below)
-const myResume = '/Yonas_Resume.pdf';  // served from Next.js public folder
+// Resume link moved to dedicated /resume page
 
 const AboutPage = () => {
   return (
@@ -75,13 +74,7 @@ const AboutPage = () => {
         </li>
       </ol>
 
-      <center>
-        <h3>
-          <a href={`${myResume}#zoom=65`} target="_blank" rel="noopener noreferrer">
-            Download Resume
-          </a>
-        </h3>
-      </center>
+
 
       {/* Scoped styles: use native bullets and hide the emoji icons visually */}
       <style jsx>{`
