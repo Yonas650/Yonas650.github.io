@@ -9,11 +9,27 @@ const ProjectCard = ({ project }) => {
         <h3>{project.name}</h3>
         <p>{project.description}</p>
         <div className={styles.tags}>
-          {project.tags.map((tag) => (
-            <span key={tag} className={tag}>
-              {tag}
-            </span>
-          ))}
+          {project.tags.map((tag) => {
+            const sanitized = tag
+              .replace(/\s+/g, '-')
+              .replace(/[^A-Za-z0-9_-]/g, '-')
+              .replace(/-+/g, '-');
+            // Also include a no-space variant to match existing CSS like 'HuggingFace'
+            const nospace = tag.replace(/[^A-Za-z0-9]/g, '');
+            const classAliases = {
+              'Node.js': 'NodeJS',
+              'C++': 'Cpp',
+              'Machine Learning': 'Machine-Learning',
+              'Natural Language Processing': 'Natural-Language-Processing',
+              'Data Analysis': 'Data-Analysis',
+              'Exploratory Data Analysis': 'Exploratory-Data-Analysis',
+            };
+            return (
+              <span key={tag} className={`${sanitized} ${nospace} ${classAliases[tag] || ''}`}>
+                {tag}
+              </span>
+            );
+          })}
         </div>
         <div className={styles.cta}>
           {project.source_code && (

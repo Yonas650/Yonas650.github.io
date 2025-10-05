@@ -27,7 +27,7 @@ export default function HomePage() {
                     <span key='Research' className='Research'>
                     Research
                     </span>
-                    <span key='Generative AI' className='Generative AI'>
+                    <span key='Generative AI' className='Generative-AI'>
                     Generative AI
                     </span>
                     <span key='JavaScript' className='JavaScript'>
