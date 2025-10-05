@@ -2,7 +2,8 @@ import { pdfjs, Document, Page } from 'react-pdf';
 // Use a local worker to avoid CDN errors. Place it at: public/pdfjs/pdf.worker.min.js
 pdfjs.GlobalWorkerOptions.workerSrc = '/pdfjs/pdf.worker.min.js';
 
-const myResume = './Resume.pdf';  // make sure this points to your actual resume PDF file
+// Place your resume at: public/Resume.pdf and reference via the public path
+const myResume = '/Resume.pdf';  // served from Next.js public folder
 
 const AboutPage = () => {
   return (
