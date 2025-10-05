@@ -1,13 +1,31 @@
 [
   {
-    "id": 1,
+  "id": 1,
+  "name": "LoRA_SFT",
+  "image": "https://miro.medium.com/0*4HXOdo0iS_T-LRw8.gif",
+  "description": "Fine-tuned the 135M-parameter SmolLM model using LoRA (Low-Rank Adaptation) for creative text generation. Conducted ablations on LoRA rank and base model (SmolLM vs GPT-2) using TRL and PEFT frameworks. Achieved a perplexity drop from 1.455 to 1.238 with only ~18 minutes of training on a T4 GPU. Includes visualizations of training curves, ablation comparisons, and generated samples.",
+  "tags": ["Python", "LoRA", "Fine-Tuning", "Transformer", "Hugging Face", "Machine Learning", "Natural Language Processing"],
+  "source_code": "https://github.com/Yonas650/LoRA_SFT"
+}
+,
+{
+  "id": 2,
+  "name": "Production RAG Pipeline",
+  "image": "https://i0.wp.com/a21.ai/wp-content/uploads/2023/12/RAG.gif?resize=1080%2C608",
+  "description": "A production-ready, fully local RAG system: ingests PDFs into a FAISS inner-product index, serves retrieval via FastAPI, and generates cited answers with Flan-T5. Includes a minimal web UI, JSON endpoints (/search, /query), adjustable top_k/score_threshold, and pluggable device selection (CPU/MPS/CUDA).",
+  "tags": ["Python", "RAG", "FAISS", "FastAPI", "Flan-T5", "NLP", "Information Retrieval"],
+  "source_code": "https://github.com/Yonas650/Production-RAG-Pipeline"
+}
+
+  ,{
+    "id": 3,
     "name": "ML Models for Mutation Impact Analysis",
     "image": "https://www.jax.org/-/media/jaxweb/images/news-and-insights/ai_cell_animate_3.gif?rev=1601637f967a46088aed830a17268e7b&hash=074810D48F763D53A2508BAB7415693C",
     "description": "This project involves building machine learning models like CNN, GRU, Random Forest, and SVM to analyze the impact of mutations in genetic data. The models are trained using a combination of SMOTE and RandomUnderSampler for handling imbalanced data and feature engineering techniques tailored for mutation data.",
     "tags": ["Python", "Bioinformatics", "Machine-Learning", "Deep-Learning", "CNN", "GRU", "Random-Forest", "SVM"],
     "source_code": "https://github.com/Yonas650/ML-Models-for-Mutation-Impact-analysis"
 },{
-  "id": 2,
+  "id": 4,
   "name": "Cancer Classification Using Gene Expression Data",
   "image": "https://ars.els-cdn.com/content/image/1-s2.0-S1532046421000939-ga1.jpg",
   "description": "A project focused on classifying different types of cancer using gene expression data. The classification models used include SVM, Random Forest, and CNN, with feature engineering and data preprocessing steps tailored for gene expression datasets.",
@@ -15,7 +33,7 @@
   "source_code": "https://github.com/Yonas650/Cancer-Classification-Gene-Expression-using-svm-randomforest-and-cnn"
 },
 {
-    "id": 3,
+    "id": 5,
     "name": "Real-Time Object Detection",
     "image": "https://miro.medium.com/v2/resize:fit:1200/0*e9eu2a2tZyI2qCfN.gif", 
     "description": "I developed a program that can detect 80 different objects in realtime using SSD MobileNet V2 FPNLite model.",
@@ -23,7 +41,7 @@
     "source_code": "https://github.com/Yonas650/Real-Time-Object-Detection"
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "Image Classification using Deep Learning",
     "image": "https://miro.medium.com/v2/resize:fit:1384/0*E184s-NT7a4NKais.gif",
     "description": "Developed a deep learning-based clothes classification model using PyTorch and VGG16, with image preprocessing, model training and validation, and accuracy assessment.",
@@ -31,7 +49,7 @@
     "source_code": "https://github.com/Yonas650/Image-classification-VGG16"
   },
   {
-    "id": 5,
+    "id": 7,
     "name": "Graph Neural Networks for EEG",
     "image": "https://analyticsindiamag.com/wp-content/uploads/2022/01/ezgif.com-gif-maker-17.gif",
     "description": "This repository explores the use of Graph Neural Networks (GNNs) for analyzing EEG data. By treating EEG channels as nodes in a graph, GNNs can capture the complex relationships between different brain regions, offering a powerful approach for EEG-based tasks.",
@@ -40,7 +58,7 @@
 },
 
   {
-    "id": 6,
+    "id": 8,
     "name": "LSTM-CNN for EEG",
     "image": "https://miro.medium.com/v2/resize:fit:1400/1*0dNoo5Y8AnUoXMSFLWpIyA.gif",
     "description": "A project leveraging a hybrid LSTM-CNN model to analyze and classify EEG signals. The model is designed to capture both temporal and spatial features from the EEG data.",
@@ -48,7 +66,7 @@
     "source_code": "https://github.com/Yonas650/LSTM_CNN-for-EEG"
 },
 {
-  "id": 7,
+  "id": 9,
   "name": "CNN-Transformer for EEG",
   "image": "https://miro.medium.com/v2/resize:fit:1200/1*mn3V4GHG9OABem9i26NVfg.gif",
   "description": "This project combines CNNs and Transformers to process and classify EEG data. The CNN extracts spatial features while the Transformer model handles sequential dependencies, providing a robust solution for EEG signal analysis.",
@@ -57,7 +75,7 @@
 }
 ,
   {
-    "id": 8,
+    "id": 10,
     "name": "Machine Learning-Driven-CLV-Prediction",
     "image": "https://www.rsm.global/australia/sites/default/files/media/GIFs/tech-whitepapers-saas%20(3).gif",
     "description": "I did exploratory data analysis using python and built a predictive model that can accurately forecast the Customer Lifetime Value (CLV) for an e-commerce business.",
@@ -65,7 +83,7 @@
     "source_code": "https://github.com/Yonas650/ML-Driven-CLV-Prediction"
   },
   {
-    "id": 9,
+    "id": 11,
     "name": "Spotify Stock Analysis",
     "image": "https://miro.medium.com/v2/resize:fit:1400/1*4Lujq0bixVv3nV-JmboxYw.gif",  
     "description": "I analyzed Spotify's current stock trends using Python tools. I also made predictions using Linear Regression.",
