@@ -26,7 +26,7 @@ const explorerItems = [
     icon: 'py_icon.svg',
   },
   {
-    name: 'paper.json',
+    name: 'papers.json',
     path: '/papers',
     icon: 'json_icon.svg',
   },
