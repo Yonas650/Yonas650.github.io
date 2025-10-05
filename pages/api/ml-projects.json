@@ -20,14 +20,14 @@
   ,{
     "id": 3,
     "name": "ML Models for Mutation Impact Analysis",
-    "image": "https://www.jax.org/-/media/jaxweb/images/news-and-insights/ai_cell_animate_3.gif?rev=1601637f967a46088aed830a17268e7b&hash=074810D48F763D53A2508BAB7415693C",
+    "image": "https://scitechdaily.com/images/Genetic-Mutations-Concept.gif",
     "description": "This project involves building machine learning models like CNN, GRU, Random Forest, and SVM to analyze the impact of mutations in genetic data. The models are trained using a combination of SMOTE and RandomUnderSampler for handling imbalanced data and feature engineering techniques tailored for mutation data.",
     "tags": ["Python", "Bioinformatics", "Machine-Learning", "Deep-Learning", "CNN", "GRU", "Random-Forest", "SVM"],
     "source_code": "https://github.com/Yonas650/ML-Models-for-Mutation-Impact-analysis"
 },{
   "id": 4,
   "name": "Cancer Classification Using Gene Expression Data",
-  "image": "https://ars.els-cdn.com/content/image/1-s2.0-S1532046421000939-ga1.jpg",
+  "image": "https://scitechdaily.com/images/Brain-Tumors-Deep-Learning-Model.gif",
   "description": "A project focused on classifying different types of cancer using gene expression data. The classification models used include SVM, Random Forest, and CNN, with feature engineering and data preprocessing steps tailored for gene expression datasets.",
   "tags": ["Python", "Machine-Learning", "Deep-Learning", "SVM", "Random-Forest", "CNN", "Bioinformatics", "Gene-Expression", "Cancer-Classification"],
   "source_code": "https://github.com/Yonas650/Cancer-Classification-Gene-Expression-using-svm-randomforest-and-cnn"
