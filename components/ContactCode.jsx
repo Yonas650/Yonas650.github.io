@@ -17,6 +17,11 @@ const contactItems = [
     href: 'https://github.com/Yonas650',
   },
   {
+    social: 'LinkedIn',
+    link: 'linkedin.com/in/yonas-atinafu-b35921372',
+    href: 'https://www.linkedin.com/in/yonas-atinafu-b35921372/',
+  },
+  {
     social: 'Portfolio Website',
     link: 'portfolio_website_address', // Replace this with your actual portfolio website address if you have one
     href: 'https://yonas650-github-io.vercel.app/', // Replace this URL as well

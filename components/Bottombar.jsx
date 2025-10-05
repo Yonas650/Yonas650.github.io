@@ -29,7 +29,7 @@ const Bottombar = () => {
         </div>
       </div>
       <div className={styles.container}>
-        <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noopener">
+        <a href="https://www.linkedin.com/in/yonas-atinafu-b35921372/" target="_blank" rel="noopener noreferrer">
           <div className={styles.section}>
             <LinkedinIcon className={styles.icon} />
             <p>Linkedin</p>
