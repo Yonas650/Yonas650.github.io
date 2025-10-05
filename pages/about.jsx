@@ -1,9 +1,5 @@
-import { pdfjs, Document, Page } from 'react-pdf';
-// Use a local worker to avoid CDN errors. Place it at: public/pdfjs/pdf.worker.min.js
-pdfjs.GlobalWorkerOptions.workerSrc = '/pdfjs/pdf.worker.min.js';
-
-// Place your resume at: public/Resume.pdf and reference via the public path
-const myResume = '/Resume.pdf';  // served from Next.js public folder
+// Place your resume at: public/Yonas_Resume.pdf (or update the path below)
+const myResume = '/Yonas_Resume.pdf';  // served from Next.js public folder
 
 const AboutPage = () => {
   return (
@@ -80,11 +76,11 @@ const AboutPage = () => {
       </ol>
 
       <center>
-        <h3>Resume (<a href={myResume} download="Yonas_Atinafu_Resume.pdf">Download</a>)</h3>
-        <br />
-        <Document file={myResume}>
-          <Page pageIndex={0} renderMode="svg"/>
-        </Document>
+        <h3>
+          <a href={`${myResume}#zoom=65`} target="_blank" rel="noopener noreferrer">
+            Download Resume
+          </a>
+        </h3>
       </center>
 
       {/* Scoped styles: use native bullets and hide the emoji icons visually */}
