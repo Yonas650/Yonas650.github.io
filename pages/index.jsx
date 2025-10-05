@@ -15,7 +15,7 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Yonas Atinafu</h1>
-            <h6 className={styles.bio}>Aspiring Machine Learning Engineer | Software Developer</h6>
+            <h6 className={styles.bio}>Software Engineer | Aspiring Machine Learning Engineer</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>

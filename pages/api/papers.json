@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "PixLift: Accelerating Web Browsing via AI Upscaling",
+    "abstract": "PixLift reduces mobile/web data usage by requesting smaller images and upscaling them on-device with AI. Deployed as a Chromium extension and evaluated across 71.4k webpages, it finds ~10% partial and ~1.5% full server support for remote downscaling. With client-side super-resolution (QuickSRNet, SR Sub-Pixel CNN, SESR-M5), PixLift achieves median page-load time reductions of ~7s under developing-region network conditions while keeping quality acceptable in a 100-user study.",
+    "conference": "COMPASS '25: Proceedings of the ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies",
+    "year": 2025,
+    "citations": 0,
+    "link": "https://doi.org/10.1145/3715335.3735476"
+  }
+]
+
