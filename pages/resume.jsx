@@ -3,6 +3,12 @@ const myResume = '/Yonas_Resume.pdf';
 const ResumePage = () => {
   return (
     <>
+    <center>
+        <p>
+          Having trouble viewing?{' '}
+          <a href={`${myResume}#zoom=65`} target="_blank" rel="noopener noreferrer">Open in new tab</a>
+        </p>
+      </center>
       <h3>Resume</h3>
       <br />
       <div style={{ height: '85vh', border: '1px solid var(--border-color)' }}>
@@ -14,12 +20,7 @@ const ResumePage = () => {
           style={{ border: 'none' }}
         />
       </div>
-      <center>
-        <p>
-          Having trouble viewing?{' '}
-          <a href={`${myResume}#zoom=65`} target="_blank" rel="noopener noreferrer">Open in new tab</a>
-        </p>
-      </center>
+  
     </>
   );
 };
