@@ -3,8 +3,8 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'yonasmuluatinafu@gmail.com',
-    href: 'mailto:yonasmuluatinafu@gmail.com',
+    link: 'yatinafu@uwaterloo.ca',
+    href: 'mailto:yatinafu@uwaterloo.ca',
   },
   {
     social: 'Phone',
