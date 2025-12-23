@@ -15,7 +15,7 @@ export default function HomePage() {
         <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Yonas Atinafu</h1>
-            <h6 className={styles.bio}>Software Engineer | Aspiring Machine Learning Engineer</h6>
+            <h6 className={styles.bio}>Software Developer | Machine Learning Engineer</h6>
             <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <div className={styles.content}>
@@ -25,10 +25,10 @@ export default function HomePage() {
                       Python
                     </span>
                     <span key='Research' className='Research'>
-                    Research
+                      Research
                     </span>
                     <span key='Generative AI' className='Generative-AI'>
-                    Generative AI
+                      Generative AI
                     </span>
                     <span key='JavaScript' className='JavaScript'>
                       JavaScript
@@ -58,10 +58,10 @@ export default function HomePage() {
                       SQL
                     </span>
                     <span key='Software-Engineering' className='Software-Engineering'>
-                    Software-Engineering
+                      Software-Engineering
                     </span>
                     <span key='MongoDB' className='MongoDB'>
-                     MongoDB
+                      MongoDB
                     </span>
                     <span key='APIs' className='APIs'>
                       APIs

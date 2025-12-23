@@ -23,8 +23,8 @@ const contactItems = [
   },
   {
     social: 'Portfolio Website',
-    link: 'Website', // Replace this with your actual portfolio website address if you have one
-    href: 'https://yonasatinafu.com/', // Replace this URL as well
+    link: 'Website',
+    href: 'https://yonasatinafu.com/',
   }
 ];
 
