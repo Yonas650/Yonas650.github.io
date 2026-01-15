@@ -3,7 +3,7 @@
 const AboutPage = () => {
   return (
     <>
-      <h2>About Me</h2><br/>
+      <h2>About Me</h2><br />
       {/* REAL bullets; emoji icons are visually hidden via CSS below */}
       <ul className="bullets">
         <li>
@@ -21,7 +21,7 @@ const AboutPage = () => {
 
         <li>
           <span role="img" aria-label="robot">🤖</span>
-          {' '}Interests: Software Development, Data Science, Machine Learning, Robots, Research.
+          {' '}Interests: Software Development, Deep Learning, LLMs, Applied AI, Research.
         </li>
 
         <li>
@@ -35,9 +35,9 @@ const AboutPage = () => {
           at <a href='https://yasirzaki.net/'>ComNets Lab, NYUAD</a>: Enhancing Mobile Web Browsing through Real-time Image Super-Resolution.
         </li>
       </ul>
-      <br/>
+      <br />
 
-      <h3>Relevant Experience</h3> <br/>
+      <h3>Relevant Experience</h3> <br />
       <ol className="bullets">
         <li>
           <span style={{ color: 'green' }}>Undergraduate Research Assistant</span>{' '}
@@ -45,28 +45,28 @@ const AboutPage = () => {
           neurohaptic research (link prediction & graph classification) with LOSO evaluation; standardized entropy features and
           PLV/correlation edges to reduce run-to-run variance and training overhead. [May 2024 – Jul 2025, Abu Dhabi, UAE]
         </li>
-        <br/>
+        <br />
         <li>
           <span style={{ color: 'green' }}>Tech Intern at a start-up (Project KUWA)</span>: worked as a full-stack web
           developer using the MERN stack; introduced smoke tests that reduced regression bugs by ~30%. [May 2023 – Sep 2023, Remote (Michigan)]
         </li>
-        <br/>
+        <br />
         <li>
           <span style={{ color: 'green' }}>AI Peer Mentor</span> at{' '}
           <a href='https://nyuad.nyu.edu/en/admissions/undergraduate/why-nyu-abu-dhabi/nyuad-programs-for-high-school-students/nyuad-design-lab.html'> Design Lab: AI, NYUAD</a>:
           Mentored a team on ideation, data prep, and evaluation — the team won the Sustainable Project Award against 7 other teams. [May 2024 – Jun 2024, Abu Dhabi, UAE]
         </li>
-        <br/>
+        <br />
       </ol>
 
-      <h3>Additional Experience</h3> <br/>
+      <h3>Additional Experience</h3> <br />
       <ol className="bullets">
         <li>
           <span style={{ color: 'green' }}>NYUAD Art Gallery Assistant - Production and Docent</span>:
           Managed the front desk, guided tours, and assisted the exhibition design technician with special projects.
           [Sep 2022 – Jun 2023, Abu Dhabi, UAE]
         </li>
-        <br/>
+        <br />
         <li>
           <span style={{ color: 'green' }}>Varsity Athletic Events Staff at NYU Athletics</span>:
           Guided visiting teams, coaches, opponents, and officials (Primary host responsibility for teams and VIPs).
