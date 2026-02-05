@@ -1,0 +1,29 @@
+I’m Yonas Atinafu, an AI and machine learning researcher and engineer focused on trustworthy and practical AI systems. I’m currently an MMath Computer Science student at the University of Waterloo (AI group), supervised by Professor Robin Cohen and co-supervised by Professor Jamal Bentahar.
+
+My work sits at the intersection of responsible AI, agentic systems, and applied machine learning, with strong engineering depth across ML systems, evaluation, and deployment. I care about building AI that is reliable under real constraints: limited compute, noisy labels, shifting distributions, and the need for transparent user control.
+
+Core strengths
+
+Machine learning research and experimentation: rigorous evaluation, ablations, failure analysis.
+
+ML engineering: end-to-end pipelines, reproducible experiments, deployment-oriented thinking.
+
+ML systems mindset: latency/throughput tradeoffs, inference constraints, pragmatic optimization.
+
+Communication: turning research into clear artifacts (papers, slides, demos) and production-ready code.
+
+Selected projects and research
+
+PixLift (ACM COMPASS 2025 submission): A Chromium-based approach to reducing web data usage by requesting smaller images and upscaling on-device using efficient super-resolution, trading bandwidth for compute.
+
+EEG-based neurohaptics / haptic decoding: Graph-based and deep learning approaches to decoding perceptual experience from EEG, with strong emphasis on evaluation reliability (e.g., label quality, LOSO generalization).
+
+Agentic and trustworthy AI directions: Interest in evaluation integrity, reliable tool use, and systems that remain dependable in messy real-world settings.
+
+Background
+
+I completed my undergraduate studies at NYU Abu Dhabi. I’ve worked as a research assistant across multiple labs, building and evaluating ML models and systems, and translating research prototypes into usable tools.
+
+What I’m looking for
+
+Roles and collaborations where I can combine research-level thinking with engineering execution: ML engineer, applied scientist, AI engineer, ML systems, or trustworthy/agentic AI work. If you want to collaborate, the best way is to reach out by email with a short note on what you’re building and what you need.

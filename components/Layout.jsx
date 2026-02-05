@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar';
 import Explorer from '../components/Explorer';
 import Bottombar from '../components/Bottombar';
 import Tabsbar from './Tabsbar';
+import ChatWidget from './ChatWidget';
 import styles from '../styles/Layout.module.css';
 
 const Layout = ({ children }) => {
@@ -17,6 +18,7 @@ const Layout = ({ children }) => {
           <main className={styles.content}>{children}</main>
         </div>
       </div>
+      <ChatWidget />
       <Bottombar />
     </>
   );
