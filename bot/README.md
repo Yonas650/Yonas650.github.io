@@ -61,7 +61,7 @@ This folder is ready to deploy to a **free Hugging Face Space (CPU Basic)** and 
    - `scripts/export_knowledge.py` (optional but recommended)
 4. Wait for build to finish.
 5. Copy your Space URL, for example:
-   - `https://your-username-your-space-name.hf.space`
+   - `https://<username>-<space-name>.hf.space`
 
 ## Hugging Face Variables and Secrets
 
@@ -74,6 +74,17 @@ This folder is ready to deploy to a **free Hugging Face Space (CPU Basic)** and 
 - `MODEL_ID`
   - Default if unset: `Qwen/Qwen2.5-1.5B-Instruct`
   - Use this to swap to another CPU-friendly instruct model.
+
+## Website Environment Configuration
+
+Set the website backend URL from environment variables only:
+
+- `CHATBOT_API_BASE_URL` (primary)
+- `NEXT_PUBLIC_CHATBOT_API_BASE_URL` (fallback)
+
+Use the Space base URL format:
+
+- `https://<username>-<space-name>.hf.space`
 
 ## Local Run
 

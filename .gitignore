@@ -1,23 +1,18 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+node_modules/
 /.pnp
 .pnp.js
 
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
-
-# production
+# next.js / build output
+.next/
+dist/
+out/
 /build
-
-# misc
-.DS_Store
-*.pem
 
 # debug
 npm-debug.log*
@@ -26,17 +21,36 @@ yarn-error.log*
 
 # local env files
 .env
+.env.*
 .env.local
 .env.*.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-# vercel
+# secret and credential material
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+**/secrets.*
+**/*secret*
+**/*apikey*
+**/*api_key*
+**/*token*
+**/*credential*
+
+# python artifacts
+.venv/
+bot/.venv/
+__pycache__/
+*.pyc
+
+# local tooling and editor artifacts
+.DS_Store
 .vercel
 .history
 .vscode
 
-# local virtual environments
-.venv/
-bot/.venv/
+# ignore backend workspace files
+bot/
