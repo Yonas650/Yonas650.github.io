@@ -3,7 +3,7 @@ import styles from '../styles/Tabsbar.module.css';
 
 const Tabsbar = () => {
   return (
-    <div className={styles.tabs}>
+    <nav className={styles.tabs} role="tablist" aria-label="Open files">
       <Tab icon="/react_icon.svg" filename="home.jsx" path="/" />
       <Tab icon="/html_icon.svg" filename="about.html" path="/about" />
       <Tab icon="/yml_icon.svg" filename="contact.yml" path="/contact" />
@@ -12,7 +12,7 @@ const Tabsbar = () => {
       {/* <Tab icon="/json_icon.svg" filename="articles.json" path="/articles" /> */}
       <Tab icon="/markdown_icon.svg" filename="github.md" path="/github" />
       <Tab icon="/pdf_icon.svg" filename="resume.pdf" path="/resume" />
-    </div>
+    </nav>
   );
 };
 

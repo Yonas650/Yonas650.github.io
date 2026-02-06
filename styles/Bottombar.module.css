@@ -1,22 +1,26 @@
 .bottomBar {
   background: var(--bottombar-bg);
-  height: 25px;
+  height: var(--statusbar-height, 26px);
   border-top: 1px solid var(--bottombar-border);
   color: rgb(225, 228, 232);
-  padding: 0 0.5rem;
+  padding: 0 var(--space-2);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 0.8rem;
+  font-size: var(--fs-12, 0.75rem);
+  font-family: var(--font-ui, 'Space Grotesk', sans-serif);
+  user-select: none;
 }
 
 .bottomBar a {
-  color: white;
+  color: inherit;
   text-decoration: none;
 }
 
 .icon {
   margin-right: 4px;
+  width: 14px;
+  height: 14px;
 }
 
 .container {
@@ -25,30 +29,31 @@
 }
 
 .section {
-  display: flex;
-  margin-right: 0.5rem;
-  height: 24px;
+  display: inline-flex;
+  gap: 4px;
+  margin-right: var(--space-1);
+  height: calc(var(--statusbar-height, 26px) - 2px);
   align-items: center;
-  padding: 0 0.2rem;
+  padding: 0 var(--space-2);
   cursor: pointer;
-  font-family: 'Source Sans Pro', sans-serif;
+  border-radius: var(--radius-sm);
+  transition: background var(--duration-fast) var(--easing-standard);
 }
 
 .section:hover {
   background: var(--bottombar-hover-bg);
 }
 
-@media screen and (max-width: 600px) {
-  .bottomBar {
-    font-size: 0.6rem;
-  }
-  .section {
-    margin-right: 0.5rem;
-  }
+.section p {
+  margin: 0;
 }
 
-@media only screen and (max-width: 780px) {
+@media screen and (max-width: 780px) {
   .section p {
     display: none;
+  }
+
+  .section {
+    padding: 0 var(--space-1);
   }
 }

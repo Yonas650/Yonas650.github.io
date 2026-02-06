@@ -1,74 +1,78 @@
 .explorer {
   background: var(--explorer-bg);
-  width: 18vw;
+  width: 100%;
   color: rgb(225, 228, 232);
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--font-ui, 'Space Grotesk', sans-serif);
   border-right: 1px solid var(--explorer-border);
+  min-width: 0;
 }
 
 .title {
-  padding: 0.5rem 0.75rem;
-  font-weight: 300;
+  padding: 0.6rem 0.85rem;
+  font-weight: 500;
   text-transform: uppercase;
-  font-size: 0.9rem;
-  letter-spacing: 1px;
-  margin-bottom: 0.75rem;
+  font-size: var(--fs-12, 0.75rem);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+  color: var(--color-muted);
 }
 
 .heading {
+  width: 100%;
+  border: 0;
+  background: transparent;
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: var(--fs-12, 0.75rem);
+  letter-spacing: 0.06em;
   display: flex;
   align-items: center;
   cursor: pointer;
-  padding: 0 0.5rem;
-}
-
-.checkbox {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
+  padding: 0 0.6rem;
+  color: inherit;
 }
 
 .files {
-  padding: 0.5rem 0;
-  cursor: pointer;
+  padding: 0.35rem 0;
+}
+
+.filesHidden {
+  display: none;
 }
 
 .file {
-  padding: 0.2rem 1rem;
+  padding: 0.3rem 1rem 0.3rem 0.85rem;
   display: flex;
   align-items: center;
-  font-size: 0.875rem;
+  gap: 0.35rem;
+  font-size: var(--fs-13, 0.8125rem);
+  border-left: 2px solid transparent;
+  text-decoration: none;
+  color: inherit;
+  transition:
+    background var(--duration-fast) var(--easing-standard),
+    border-color var(--duration-fast) var(--easing-standard);
 }
 
 .file p {
-  margin-left: 5px;
+  margin-left: 4px;
+  margin-bottom: 0;
 }
 
 .file:hover {
   background: var(--explorer-hover-bg);
 }
 
+.fileActive {
+  background: var(--explorer-hover-bg);
+  border-left-color: var(--accent-color);
+}
+
 .chevron {
-  transition: transform 0.2s;
+  transition: transform var(--duration-fast) var(--easing-standard);
 }
 
-@media screen and (min-width: 2000px) {
-  .explorer {
-    width: 10vw;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .explorer {
-    width: 20vw;
-  }
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .explorer {
     display: none;
   }

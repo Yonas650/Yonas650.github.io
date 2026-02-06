@@ -13,18 +13,22 @@ const sidebarTopItems = [
   {
     Icon: FilesIcon,
     path: '/',
+    label: 'Home',
   },
   {
     Icon: GithubIcon,
     path: '/github',
+    label: 'GitHub',
   },
   {
     Icon: CodeIcon,
     path: '/projects',
+    label: 'Projects',
   },
   {
     Icon: PencilIcon,
     path: '/papers',
+    label: 'Papers',
   },
   // {
   //   Icon: PencilIcon,
@@ -33,6 +37,7 @@ const sidebarTopItems = [
   {
     Icon: MailIcon,
     path: '/contact',
+    label: 'Contact',
   },
 ];
 
@@ -40,10 +45,12 @@ const sidebarBottomItems = [
   {
     Icon: AccountIcon,
     path: '/about',
+    label: 'About',
   },
   {
     Icon: SettingsIcon,
     path: '/settings',
+    label: 'Settings',
   },
 ];
 
@@ -53,12 +60,15 @@ const Sidebar = () => {
   return (
     <aside className={styles.sidebar}>
       <div className={styles.sidebarTop}>
-        {sidebarTopItems.map(({ Icon, path }) => (
+        {sidebarTopItems.map(({ Icon, path, label }) => (
           <Link href={path} key={path}>
-            <div
+            <a
               className={`${styles.iconContainer} ${
                 router.pathname === path && styles.active
               }`}
+              aria-label={label}
+              title={label}
+              aria-current={router.pathname === path ? 'page' : undefined}
             >
               <Icon
                 fill={
@@ -68,14 +78,21 @@ const Sidebar = () => {
                 }
                 className={styles.icon}
               />
-            </div>
+            </a>
           </Link>
         ))}
       </div>
       <div className={styles.sidebarBottom}>
-        {sidebarBottomItems.map(({ Icon, path }) => (
-          <div className={styles.iconContainer}>
-            <Link href={path} key={path}>
+        {sidebarBottomItems.map(({ Icon, path, label }) => (
+          <Link href={path} key={path}>
+            <a
+              className={`${styles.iconContainer} ${
+                router.pathname === path && styles.active
+              }`}
+              aria-label={label}
+              title={label}
+              aria-current={router.pathname === path ? 'page' : undefined}
+            >
               <Icon
                 fill={
                   router.pathname === path
@@ -84,8 +101,8 @@ const Sidebar = () => {
                 }
                 className={styles.icon}
               />
-            </Link>
-          </div>
+            </a>
+          </Link>
         ))}
       </div>
     </aside>
