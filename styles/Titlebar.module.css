@@ -1,73 +1,51 @@
 .titlebar {
   background: var(--titlebar-bg);
-  height: var(--titlebar-height, 32px);
-  padding: 0 var(--space-3);
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-  align-items: center;
-  color: #fff;
-  font-family: var(--font-ui, 'Space Grotesk', sans-serif);
-  font-size: var(--fs-13, 0.8125rem);
-  border-bottom: 1px solid var(--line-subtle);
-  user-select: none;
-}
-
-.left {
+  height: 30px;
+  padding: 0 0.5rem;
   display: flex;
   align-items: center;
-  min-width: 0;
-  gap: var(--space-2);
+  justify-content: center;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.85rem;
+  border-bottom: 1px solid #191d20;
 }
 
 .items {
+  flex: 1;
   display: flex;
-  min-width: 0;
-  gap: var(--space-1);
-}
-
-.menuItem {
-  border: 0;
-  background: transparent;
-  color: inherit;
-  cursor: pointer;
-  font: inherit;
-  padding: 0.12rem 0.45rem;
-  border-radius: var(--radius-sm);
-  transition: background var(--duration-fast) var(--easing-standard);
-}
-
-.menuItem:hover {
-  background: var(--sidebar-hover-bg);
+  margin-right: auto;
+  margin-left: 0.5rem;
 }
 
 .title {
-  justify-self: center;
-  font-size: var(--fs-12, 0.75rem);
-  letter-spacing: 0.01em;
-  opacity: 0.92;
+  flex: 1;
   text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 0 var(--space-3);
+}
+
+.items > * {
+  padding: 0 0.5rem;
+  cursor: pointer;
 }
 
 .windowButtons {
-  justify-self: end;
+  flex: 1;
   display: flex;
   align-items: center;
-  gap: var(--space-2);
+  margin-left: auto;
 }
 
-.windowButtons span {
-  height: 11px;
-  width: 11px;
+.windowButtons * {
+  margin-left: 0.5rem;
+  height: 13px;
+  width: 13px;
   border-radius: 50%;
-  opacity: 0.9;
+  cursor: pointer;
 }
 
 .minimize {
   background: #f1fa8c;
+  margin-left: auto;
 }
 
 .maximize {
@@ -78,24 +56,11 @@
   background: #ff5555;
 }
 
-@media screen and (max-width: 1080px) {
-  .menuItem {
-    padding: 0.1rem 0.34rem;
-    font-size: var(--fs-12, 0.75rem);
-  }
-}
-
 @media screen and (max-width: 900px) {
-  .menuItem {
+  .items p {
     display: none;
   }
-
-  .titlebar {
-    grid-template-columns: auto 1fr auto;
-  }
-
   .title {
-    justify-self: start;
-    margin-left: var(--space-2);
+    flex: 4;
   }
 }

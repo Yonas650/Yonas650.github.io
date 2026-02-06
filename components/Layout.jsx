@@ -12,10 +12,10 @@ const Layout = ({ children }) => {
       <div className={styles.main}>
         <Sidebar />
         <Explorer />
-        <section className={styles.workspace}>
+        <div style={{ width: '100%' }}>
           <Tabsbar />
           <main className={styles.content}>{children}</main>
-        </section>
+        </div>
       </div>
       <Bottombar />
     </>

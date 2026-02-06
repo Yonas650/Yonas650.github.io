@@ -1,24 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-html,
-body {
-  min-height: 100%;
-}
-
-body {
-  font-family: var(--font-code, 'JetBrains Mono', monospace);
-  font-size: var(--fs-14, 0.875rem);
-  background: var(--main-bg);
-  color: var(--text-color);
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Tags */
@@ -720,23 +707,6 @@ a:visited {
   color: var(--accent-color);
   text-decoration: none;
 
-}
-
-:where(a, button, input, select, textarea, [role='button'], [tabindex]):focus-visible {
-  outline: none;
-  box-shadow: var(--focus-ring-shadow);
-  border-radius: var(--radius-sm);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0.01ms !important;
-  }
 }
 /*uncomment this if you want the music button to appear*/
 /*@keyframes colorChange {

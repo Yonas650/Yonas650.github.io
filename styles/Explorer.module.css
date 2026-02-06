@@ -1,78 +1,74 @@
 .explorer {
   background: var(--explorer-bg);
-  width: 100%;
+  width: 18vw;
   color: rgb(225, 228, 232);
-  font-family: var(--font-ui, 'Space Grotesk', sans-serif);
+  font-family: 'Source Sans Pro', sans-serif;
   border-right: 1px solid var(--explorer-border);
-  min-width: 0;
 }
 
 .title {
-  padding: 0.6rem 0.85rem;
-  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+  font-weight: 300;
   text-transform: uppercase;
-  font-size: var(--fs-12, 0.75rem);
-  letter-spacing: 0.08em;
-  margin-bottom: 0.5rem;
-  color: var(--color-muted);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.75rem;
 }
 
 .heading {
-  width: 100%;
-  border: 0;
-  background: transparent;
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: var(--fs-12, 0.75rem);
-  letter-spacing: 0.06em;
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
   display: flex;
   align-items: center;
   cursor: pointer;
-  padding: 0 0.6rem;
-  color: inherit;
+  padding: 0 0.5rem;
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
 }
 
 .files {
-  padding: 0.35rem 0;
-}
-
-.filesHidden {
-  display: none;
+  padding: 0.5rem 0;
+  cursor: pointer;
 }
 
 .file {
-  padding: 0.3rem 1rem 0.3rem 0.85rem;
+  padding: 0.2rem 1rem;
   display: flex;
   align-items: center;
-  gap: 0.35rem;
-  font-size: var(--fs-13, 0.8125rem);
-  border-left: 2px solid transparent;
-  text-decoration: none;
-  color: inherit;
-  transition:
-    background var(--duration-fast) var(--easing-standard),
-    border-color var(--duration-fast) var(--easing-standard);
+  font-size: 0.875rem;
 }
 
 .file p {
-  margin-left: 4px;
-  margin-bottom: 0;
+  margin-left: 5px;
 }
 
 .file:hover {
   background: var(--explorer-hover-bg);
 }
 
-.fileActive {
-  background: var(--explorer-hover-bg);
-  border-left-color: var(--accent-color);
-}
-
 .chevron {
-  transition: transform var(--duration-fast) var(--easing-standard);
+  transition: transform 0.2s;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 2000px) {
+  .explorer {
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .explorer {
+    width: 20vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .explorer {
     display: none;
   }

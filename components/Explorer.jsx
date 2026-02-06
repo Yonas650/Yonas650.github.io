@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
-import { useRouter } from 'next/router';
 import ChevronRight from '../components/icons/ChevronRight';
 import styles from '../styles/Explorer.module.css';
 
@@ -31,6 +30,11 @@ const explorerItems = [
     path: '/papers',
     icon: 'json_icon.svg',
   },
+  // {
+  //   name: 'articles.json',
+  //   path: '/articles',
+  //   icon: 'json_icon.svg',
+  // },
   {
     name: 'github.md',
     path: '/github',
@@ -45,52 +49,45 @@ const explorerItems = [
 
 const Explorer = () => {
   const [portfolioOpen, setPortfolioOpen] = useState(true);
-  const router = useRouter();
 
   return (
-    <aside className={styles.explorer}>
+    <div className={styles.explorer}>
       <p className={styles.title}>Explorer</p>
       <div>
-        <button
-          type="button"
-          className={styles.heading}
-          onClick={() => setPortfolioOpen((open) => !open)}
-          aria-expanded={portfolioOpen}
-          aria-controls="portfolio-files"
-        >
+        <input
+          type="checkbox"
+          className={styles.checkbox}
+          id="portfolio-checkbox"
+          checked={portfolioOpen}
+          onChange={() => setPortfolioOpen(!portfolioOpen)}
+        />
+        <label htmlFor="portfolio-checkbox" className={styles.heading}>
           <ChevronRight
             className={styles.chevron}
-            style={portfolioOpen ? { transform: 'rotate(90deg)' } : undefined}
+            style={portfolioOpen ? { transform: 'rotate(90deg)' } : {}}
           />
           Portfolio
-        </button>
+        </label>
         <div
-          id="portfolio-files"
-          className={`${styles.files} ${portfolioOpen ? '' : styles.filesHidden}`}
+          className={styles.files}
+          style={portfolioOpen ? { display: 'block' } : { display: 'none' }}
         >
-          {explorerItems.map((item) => {
-            const isActive = router.pathname === item.path;
-
-            return (
-              <Link href={item.path} key={item.name}>
-                <a
-                  className={`${styles.file} ${isActive ? styles.fileActive : ''}`}
-                  aria-current={isActive ? 'page' : undefined}
-                >
-                  <Image
-                    src={`/${item.icon}`}
-                    alt={item.name}
-                    height={16}
-                    width={16}
-                  />
-                  <p>{item.name}</p>
-                </a>
-              </Link>
-            );
-          })}
+          {explorerItems.map((item) => (
+            <Link href={item.path} key={item.name}>
+              <div className={styles.file}>
+                <Image
+                  src={`/${item.icon}`}
+                  alt={item.name}
+                  height={18}
+                  width={18}
+                />{' '}
+                <p>{item.name}</p>
+              </div>
+            </Link>
+          ))}
         </div>
       </div>
-    </aside>
+    </div>
   );
 };
 

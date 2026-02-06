@@ -3,94 +3,62 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100%;
+  width: 4.5vw;
   min-width: 40px;
-  height: calc(
-    100vh - var(--titlebar-height, 32px) - var(--statusbar-height, 26px)
-  );
-  border-right: 1px solid var(--line-subtle);
-}
-
-.sidebarTop,
-.sidebarBottom {
-  display: flex;
-  flex-direction: column;
+  height: calc(100vh - 30px - 25px);
 }
 
 .iconContainer {
   cursor: pointer;
   width: 100%;
-  min-height: 46px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  text-decoration: none;
-  transition:
-    background var(--duration-fast) var(--easing-standard),
-    opacity var(--duration-fast) var(--easing-standard);
 }
 
 .iconContainer:hover {
   background: var(--sidebar-hover-bg);
 }
 
-.iconContainer::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 8px;
-  bottom: 8px;
-  width: 2px;
-  border-radius: var(--radius-pill, 999px);
-  background: var(--accent-gradient);
-  opacity: 0;
-  transform: scaleY(0.5);
-  transform-origin: center;
-  transition:
-    opacity var(--duration-fast) var(--easing-standard),
-    transform var(--duration-fast) var(--easing-standard);
+.active {
+  border-left: 2px solid var(--accent-color);
 }
 
 .icon {
-  height: 44px;
-  width: 44px;
-  padding: 0.55rem 0;
+  height: 48px;
+  width: 48px;
+  padding: 0.65rem 0;
   display: block;
   margin: 0 auto;
-  opacity: 0.95;
-  transition:
-    transform var(--duration-fast) var(--easing-standard),
-    opacity var(--duration-fast) var(--easing-standard);
 }
 
-.iconContainer:hover .icon {
-  transform: translateX(1px);
-  opacity: 1;
+@media screen and (min-width: 2000px) {
+  .sidebar {
+    width: 2.5vw;
+  }
 }
 
-.iconContainer:focus-visible {
-  outline: none;
-  box-shadow: inset 0 0 0 1px var(--accent-color);
-}
-
-.active::before {
-  opacity: 1;
-  transform: scaleY(1);
+@media screen and (max-width: 1100px) {
+  .sidebar {
+    width: 6vw;
+  }
 }
 
 @media screen and (max-width: 900px) {
+  .sidebar {
+    width: 8vw;
+  }
   .icon {
-    height: 42px;
-    width: 42px;
-    padding: 0.5rem;
+    height: 48px;
+    width: 48px;
+    padding: 0.6rem;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .sidebar {
+    width: 10vw;
+  }
   .icon {
-    height: 40px;
-    width: 40px;
-    padding: 0.5rem;
+    height: 43px;
+    width: 43px;
+    padding: 0.6rem;
   }
 }

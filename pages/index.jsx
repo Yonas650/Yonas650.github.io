@@ -1,97 +1,101 @@
 import Link from 'next/link';
-import Image from 'next/image';
+// import Illustration from '../components/Illustration';
+import Image from "next/image";
 import styles from '../styles/HomePage.module.css';
-
-const quickFacts = ['Waterloo', 'SWE + ML', 'Research + Product'];
-
-const stack = [
-  { key: 'Python', label: 'Python', className: 'Python' },
-  { key: 'Research', label: 'Research', className: 'Research' },
-  { key: 'Generative AI', label: 'Generative AI', className: 'Generative-AI' },
-  { key: 'JavaScript', label: 'JavaScript', className: 'JavaScript' },
-  { key: 'React', label: 'React', className: 'React' },
-  { key: 'Node.js', label: 'Node.js', className: 'NodeJS' },
-  { key: 'TensorFlow', label: 'TensorFlow', className: 'Tensorflow' },
-  { key: 'PyTorch', label: 'PyTorch', className: 'PyTorch' },
-  { key: 'Machine-Learning', label: 'Machine Learning', className: 'Machine-Learning' },
-  { key: 'Computer-Vision', label: 'Computer Vision', className: 'Computer-Vision' },
-  { key: 'Data-Science', label: 'Data Science', className: 'Data-Science' },
-  { key: 'SQL', label: 'SQL', className: 'SQL' },
-  { key: 'Software-Engineering', label: 'Software Engineering', className: 'Software-Engineering' },
-  { key: 'MongoDB', label: 'MongoDB', className: 'MongoDB' },
-  { key: 'APIs', label: 'APIs', className: 'APIs' },
-];
 
 export default function HomePage() {
   return (
-    <section className={styles.container}>
-      <div className={styles.background} aria-hidden="true">
-        <h1>WELCOME</h1>
-        <h1>home.jsx</h1>
-      </div>
-
-      <p className={styles.editorHint}>OPEN EDITOR • home.jsx</p>
-
-      <div className={styles.foreground}>
-        <article className={styles.heroPanel}>
-          <div className={styles.panelTop}>
-            <span></span>
-            <span></span>
-            <span></span>
-            <p>README.md</p>
-          </div>
-
-          <h1 className={styles.name}>Yonas Atinafu</h1>
-          <p className={styles.bio}>Software Developer · Machine Learning Engineer</p>
-          <p className={styles.summary}>
-            Building production AI systems, research prototypes, and full-stack
-            software with a focus on reliability, speed, and practical impact.
-          </p>
-
-          <div className={styles.quickMeta}>
-            {quickFacts.map((fact) => (
-              <span key={fact}>{fact}</span>
-            ))}
-          </div>
-
-          <div className={styles.actions}>
-            <Link href="/projects">
-              <a className={styles.button}>View Projects</a>
-            </Link>
-            <Link href="/about">
-              <a className={styles.outlined}>About Me</a>
-            </Link>
-            <Link href="/contact">
-              <a className={styles.outlinedMuted}>Contact</a>
-            </Link>
-          </div>
-        </article>
-
-        <aside className={styles.sideCard}>
-          <div className={styles.pictureBorder}>
-            <Image
-              className={styles.picture}
-              src="/me.jpeg"
-              width={320}
-              height={320}
-              alt="Portrait of Yonas Atinafu"
-              priority
-            />
-          </div>
-
-          <div className={styles.sideContent}>
-            <h3>Skill Stack</h3>
-            <div className={styles.tags}>
-              {stack.map((item) => (
-                <span key={item.key} className={item.className}>
-                  {item.label}
-                </span>
-              ))}
+    <>
+      <div className={styles.container}>
+        <div className={styles.background}>
+          <h1>AI</h1>
+          <h1>ML</h1>
+          <h1>Software</h1>
+        </div>
+        <div className={styles.foreground}>
+          <div className={styles.content}>
+            <h1 className={styles.name}>Yonas Atinafu</h1>
+            <h6 className={styles.bio}>Software Developer | Machine Learning Engineer</h6>
+            <div className={styles.cardContainer}>
+              <div className={styles.card}>
+                <div className={styles.content}>
+                  <h4>Skill Set</h4>
+                  <div className={styles.tags}>
+                    <span key='Python' className='Python'>
+                      Python
+                    </span>
+                    <span key='Research' className='Research'>
+                      Research
+                    </span>
+                    <span key='Generative AI' className='Generative-AI'>
+                      Generative AI
+                    </span>
+                    <span key='JavaScript' className='JavaScript'>
+                      JavaScript
+                    </span>
+                    <span key='React' className='React'>
+                      React
+                    </span>
+                    <span key='NodeJS' className='NodeJS'>
+                      Node.js
+                    </span>
+                    <span key='Tensorflow' className='Tensorflow'>
+                      TensorFlow
+                    </span>
+                    <span key='PyTorch' className='PyTorch'>
+                      PyTorch
+                    </span>
+                    <span key='Machine-Learning' className='Machine-Learning'>
+                      Machine-Learning
+                    </span>
+                    <span key='Computer-Vision' className='Computer-Vision'>
+                      Computer-Vision
+                    </span>
+                    <span key='Data-Science' className='Data-Science'>
+                      Data-Science
+                    </span>
+                    <span key='SQL' className='SQL'>
+                      SQL
+                    </span>
+                    <span key='Software-Engineering' className='Software-Engineering'>
+                      Software-Engineering
+                    </span>
+                    <span key='MongoDB' className='MongoDB'>
+                      MongoDB
+                    </span>
+                    <span key='APIs' className='APIs'>
+                      APIs
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
+            <Link href="/about">
+              <button className={styles.button}>About Me</button>
+            </Link>
+            {/* <Link href="/projects">
+              <button className={styles.button}>View Projects</button>
+            </Link> */}
+            <Link href="/contact">
+              <button className={styles.outlined}>Contact</button>
+            </Link>
           </div>
-        </aside>
+          {/* <Illustration className={styles.illustration} /> */}
+          <div className={styles.right}>
+            <div className={styles.picture_boader}>
+              <Image
+                className={styles.picture}
+                src="/me.jpeg"
+                width={300}
+                height={290}
+                alt="Kostas' Picture"
+              />
+            </div>
+
+          </div>
+        </div>
       </div>
-    </section>
+    </>
   );
 }
 
